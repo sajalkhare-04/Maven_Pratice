@@ -10,6 +10,6 @@ WORKDIR /app
 
 COPY /target/pratice_maven-1.0-SNAPSHOT.jar   /app/pratice_maven.jar
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["java", "-jar", "/app/pratice_maven.jar"]
